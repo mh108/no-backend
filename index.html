@@ -6,26 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
 <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+
   <title>Document</title>
 </head>
 <body>
-  <h2>Welcome</h2>
+
   <div id="mountNode">
-  <script>
-
-  const Hello = (props) => {
-    return (
-      //<h2>Hello React...</h2>
-      React.createElement("h2", {}, `Hello ${props.name}`)
-    );
-  };
-
-  ReactDOM.render(
-    //<Hello />,
-    React.createElement(Hello, { name: 'Phred' }),
-    document.getElementById('mountNode')
-  );
-  </script>
+    <script src="build/index.js" charset="utf-8"></script>
 </div>
 </body>
 </html>
